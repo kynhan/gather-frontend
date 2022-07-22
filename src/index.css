@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #e15a47, #318ba3, #743192);
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+	/* text-align: center; */
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 16px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 40px auto;
+	width: 300px;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+a {
+	color: #318ba3;
+	text-decoration: none;
+}
+
+.fc .fc-col-header-cell-cushion {
+	color: #ffffff;
+}
+
+.fc .fc-daygrid-day-number {
+	color: #ffffff;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+	background-color: rgba(255, 255, 255, 0.12) !important;
+}
