@@ -7,8 +7,7 @@ const BASE_URL_AUTH = 'https://orbital-gather.herokuapp.com';
  */
 export const axiosAuth = axios.create({
   baseURL: BASE_URL_AUTH,
-  headers: { 'Content-Type': 'application/json'},
-  withCredentials: true
+  headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Credentials':true}
 })
 
 /**
@@ -16,6 +15,5 @@ export const axiosAuth = axios.create({
  */
 export const axiosResource = axios.create({
   baseURL: BASE_URL_RESOURCE,
-  headers: { 'Content-Type': 'application/json'},
-  withCredentials: true
+  headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Credentials':true}
 })
